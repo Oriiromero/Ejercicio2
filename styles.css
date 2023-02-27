@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    font-family: Inter,sans-serif;   
+    color: #191919;
+    box-shadow: 1px 1px 5px #BBBBBB;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.login {
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 160px;
+    margin-top: 100px;
+    font-family: Inter,sans-serif;
+    color: #191919;
+}
+
+.link-socials {
+    display: flex;
+    margin-top: 20px;
+}
+
+.google {
+    display: flex;
+    background-color: #0081C9;
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.facebook {
+    display: flex;
+    background-color: #00337C;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.link-socials img {
+    width: 30px;
+}
+
+.image {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.text-g {
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: whitesmoke;
+}
+
+.text-fb {
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: whitesmoke;
+}
+
+.text-pre-form {
+    font-family: Inter,sans-serif;
+    color: #191919;
+    margin-top: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 160px;
+    margin-top: 40px;
+    font-family: Inter,sans-serif;
+    color: #191919;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+input {
+    width: 30%;
+    border-radius: 5px;
+    height: 30px;
+    border-color: rgba(48, 46, 46, 0.54);
+    padding-left: 10px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.eye {
+     position: absolute;
+     margin-top: 40px;
+     margin-left: 400px;
+     cursor: pointer;
+}
+
+.terms {
+    display: inline-block;
+    margin-top: 40px;
+    font-family: Inter,sans-serif;
+    color: #525252;
+    margin-left: 160px;
+    width: 80%;
+}
+
+.terms input {
+    width: 15px;
+}
+
+.terms p {
+    width: 100%;
+}
+
+.check {
+    display: flex;
+}
+
+.check p {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.create-account {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    padding: 15px 30px 15px 30px;
+    margin-top: 40px;
+    font-family: Inter,sans-serif;
+    color: #BBBBBB;
+    margin-left: 160px;
+    width: 190px;
+    border-radius: 50px;
+    border: 4px solid #BBBBBB;
+    border-style: dashed;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 190px;
+    font-family: Inter,sans-serif;   
+    color: #525252;
+    box-shadow: 1px 1px 5px #BBBBBB;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+
+.copy {
+    margin: 30px 0 0 90px;
+}
+
+.list {
+    margin: 30px 0 0 50px;
+    margin-left: 200px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer li {
+    padding: 0 15px 0 15px;
+    list-style: none;
+    cursor: pointer;
+}
